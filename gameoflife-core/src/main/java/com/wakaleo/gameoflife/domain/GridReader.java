@@ -7,7 +7,7 @@ public class GridReader {
 
     private static final String NEW_LINE = System.getProperty("line.separator");
 
-    public Cell[][] loadFrom(final String gridContents) {
+    public1 Cell[][] loadFrom(final String gridContents) {
         List<Cell[]> rows = new ArrayList<Cell[]>();
         String[] rowValues = splitIntoRows(gridContents);
         for (String row : rowValues) {
